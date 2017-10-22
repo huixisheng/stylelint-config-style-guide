@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-style-guide",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "在stylelint-config-standard基础上自定义代码检测规则",
   "main": "index.js",
   "scripts": {
@@ -20,9 +20,10 @@
     "url": "https://github.com/huixisheng/stylelint-config-style-guide/issues"
   },
   "homepage": "https://github.com/huixisheng/stylelint-config-style-guide#readme",
-  "devDependencies": {
-    "stylefmt": "^5.3.2",
-    "stylelint": "^7.10.1",
-    "stylelint-config-standard": "^16.0.0"
+  "dependencies": {
+    "stylefmt": "^6.0.0",
+    "stylelint": "^8.2.0",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-processor-html": "^1.0.0"
   }
 }
